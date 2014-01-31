@@ -23,3 +23,6 @@ opam --git-version
 opam init
 eval `opam config env`
 opam install ${OPAM_DEPENDS}
+
+tar -cf opam-street.tar.gz -C $HOME .opam
+tar tf opam-street.tar.gz

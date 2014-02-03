@@ -4,6 +4,6 @@ env:
   global:
     - secure: "NyIQjz5nYZpWyz0QopF0qNEnCadwGgWL11TcTXa2aa+PrLz9TajZdDxUp3x9oz4R4mWmPPLFh978506xtAihkbuvdIdRsff5pcpndrmMfp4+n5TwPFUbvtHVJahSQ4w93L41tJYpEpcwSCzdLkAjbsEx5DlsTvEZy7hJS8UKvXQ="
     - secure: "G+CuttrmTedMSBOjUJit/F03PXAIY1xPZZDfLNS7UqAIvzcGmYV7mTulF7Gh+73skNnWU23sX12HrlQvvFJzYTNgr63tA3wmpJGrXs8qdknok1unruX0AdzCpnfiuscS7ogLEVqr1fpQ4jhp5YDtl0qdGqEHzFtDa/KtWgwYYvM="
-    - OPAM_DEPENDS=""
+    - OPAM_DEPENDS="core async cstruct"
   matrix:
     - OCAML_VERSION=4.01.0 OPAM_VERSION=1.1.0

@@ -1,5 +1,8 @@
 language: c
 script: bash -ex .travis-ci.sh
+branches:
+  only:
+    - master
 env:
   global:
     - secure: "NyIQjz5nYZpWyz0QopF0qNEnCadwGgWL11TcTXa2aa+PrLz9TajZdDxUp3x9oz4R4mWmPPLFh978506xtAihkbuvdIdRsff5pcpndrmMfp4+n5TwPFUbvtHVJahSQ4w93L41tJYpEpcwSCzdLkAjbsEx5DlsTvEZy7hJS8UKvXQ="
